@@ -1,0 +1,25 @@
+.dogImg{
+  width: 250px;
+  height: 189px;
+}
+
+.dogFigure{
+  display: inline-block;
+  position: relative;
+  overflow:hidden;
+}
+
+.dogFigcaption{
+  color:white;
+  font-size: 1.5em;
+  position: absolute;
+  width:100%;
+  bottom: -100px;
+  text-align: center;
+  padding:10px;
+  transition: all 400ms ease-out;
+}
+figure:hover figcaption{
+  bottom: 25px;
+  background-color: rgba(0,0,0,.7);
+}
